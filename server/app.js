@@ -12,7 +12,7 @@ app.use(cookieParser())
 app.use(cors())
 app.use('/',authRouter)
 app.use('/',userRouter)
-
+// Hello this is new changes 
 app.use((error,req,res,next)=>{
 
     const statusCode = error.statusCode || 500;
