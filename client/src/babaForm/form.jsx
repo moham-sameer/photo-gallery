@@ -18,7 +18,7 @@ const form = () => {
       e.preventDefault()
       try {
          
-         const data = await axios.post('https://mern-form-n7800dxbp-ms4492222gmailcoms-projects.vercel.app/submitFiles',formData)
+         const data = await axios.post('https://mern-form-client.vercel.app/submitFiles',formData)
          console.log(data)
             navigate('/fooled')
       } catch (error) {
