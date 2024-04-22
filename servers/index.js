@@ -6,7 +6,7 @@ const userRouter = require('./routes/route.js')
 app.use(express.json())
 app.use(cors(
    {
-  origin:'*',
+  origin:'https://mern-form-client.vercel.app',
   methods: ['POST', 'GET'],
   credentials: true
 }
